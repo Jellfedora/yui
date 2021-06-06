@@ -1,0 +1,90 @@
+.phototeque {
+  /* background-color: red; */
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  min-height: 50vh;
+  padding: 0.5em;
+}
+
+.phototeque__title {
+  font-size: 1.8em;
+  margin: 0;
+  width: 100%;
+}
+
+.phototeque__settings {
+}
+
+.phototeque__settings__title {
+  font-size: 1.3em;
+  margin: 0;
+}
+
+.phototeque__settings__warning {
+  font-weight: bold;
+}
+
+.phototeque__settings__form__label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.phototeque__settings__form__container {
+  display: flex;
+  margin-bottom: 0.5em;
+}
+
+.phototeque__settings__form__container__input {
+  margin: 0;
+  border-radius: 0;
+}
+
+.phototeque__settings__form__container__submit {
+  margin: 0;
+  border-radius: 0;
+  background-color: #1d2327;
+  color: white;
+  font-weight: bold;
+  /* border: none; */
+}
+
+.phototeque__import {
+  width: 100%;
+}
+
+.phototeque__import__warning {
+  color: red;
+}
+
+.phototeque__photos-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.photo-item {
+  width: 5em;
+  height: 5em;
+}
+
+.phototeque__import__submit {
+  margin: 0;
+  border-radius: 0;
+  background-color: #1d2327;
+  color: white;
+  font-weight: bold;
+  height: 3em;
+  width: 7em;
+}
+
+.phototeque__import__message {
+  color: red;
+  word-wrap: break-word;
+  width: 100%;
+}
+
+#wpcontent {
+  padding: 0 !important;
+}

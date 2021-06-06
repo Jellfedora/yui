@@ -1,0 +1,31 @@
+/*
+ Theme Name: Théme Yui
+ Theme URI: https://www.monsite.com/monsite
+ Author: Jellfedora
+ Author URI: https://devodyssey.fr/
+ Description: Théme maison
+ Version: 1.0
+ */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;400;700&display=swap");
+body {
+  background-color: #000;
+  font-family: "Oswald", sans-serif;
+  color: #4b5157;
+  margin: 0 auto;
+}
+.header {
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 2em;
+}
+.header__title {
+  margin-right: 0.3em;
+  font-size: 2em;
+}
+.header__baseline {
+  font-size: 0.8em;
+}

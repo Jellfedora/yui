@@ -1,0 +1,11 @@
+vendor/
+wp/
+/wp-content/*
+!/wp-content/themes
+/wp-content/themes/*
+!/wp-content/themes/yui
+!/wp-content/plugins
+/wp-content/plugins/*
+!/wp-content/plugins/phototeque
+/wp-content/uploads
+wp-config.php
